@@ -1,0 +1,6 @@
+.*
+!.gitignore
+/.bundle/
+my-*
+_work
+_dist

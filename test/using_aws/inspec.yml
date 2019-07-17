@@ -1,0 +1,23 @@
+name: simple-app
+title: Controls for AWS resources
+maintainer: Kief Morris
+copyright: Kief Morris
+copyright_email: cloudspin@kief.com
+license: Apache-2.0
+summary: An InSpec Compliance Profile
+version: 0.1.0
+description: Controls to test how AWS infrastructure resources are implemented
+
+attributes:
+  - name: estate_name
+    type: string
+    required: true
+
+  - name: environment_name
+    type: string
+    required: true
+
+  - name: stack_name
+    type: string
+    value: simple-app
+

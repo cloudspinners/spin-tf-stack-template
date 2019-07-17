@@ -1,0 +1,26 @@
+name: simple-app
+title: Run checks from here
+maintainer: Kief Morris
+copyright: Kief Morris
+copyright_email: cloudspin@kief.com
+license: Apache-2.0
+summary: Controls that run from the local machine
+version: 0.1.0
+description: Controls that run from the local machine
+
+attributes:
+  - name: stack_name
+    type: string
+    value: simple-app
+
+  - name: environment_name
+    type: string
+    required: true
+
+  - name: estate_name
+    type: string
+    required: true
+
+  - name: appserver_ip
+    type: string
+    required: true

@@ -1,0 +1,11 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - make package STACK_CONFIG=environments/build-stack.tfvars BACKEND_CONFIG=environments/build-backend.hcl
+
+artifacts:
+  files:
+    - _dist/*.tgz
+    - pipeline/*_buildspec.yml
